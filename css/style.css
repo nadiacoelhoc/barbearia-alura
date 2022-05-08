@@ -46,3 +46,7 @@ ul{
 .beneficios .imagembeneficios{
     width: 50%;
 }
+
+.nome{
+    font-weight: bolder;
+}
