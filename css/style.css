@@ -16,7 +16,7 @@ header nav li a{
 }
 
 nav a:hover{
-    color: rgb(190, 38, 30);
+    color: rgb(119, 24, 19);
     text-decoration: underline;
 }
 
@@ -56,7 +56,7 @@ nav a{
 }
 
 .servicos li:hover{
-    border-color: rgb(190, 38, 30) ;
+    border-color: rgb(119, 24, 19);
 }
 
 .servicos li:hover h2{
@@ -82,7 +82,7 @@ nav a{
 footer{
     text-align: center;
     background: url(../img/bg.jpg);
-    padding: 40px 0
+    padding: 40px 0;
 }
 
 .copyright{
@@ -101,4 +101,63 @@ footer{
     .servicos{
         width: 100%;
     }
+}
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form form{
+    margin: 40px 0;
+}
+
+.form label, .form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(119, 24, 19);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(136, 47, 47);
+    transform: scale(1.1);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: rgb(136, 47, 47);
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
